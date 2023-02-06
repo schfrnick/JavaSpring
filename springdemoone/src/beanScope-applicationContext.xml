@@ -16,7 +16,8 @@
     
     
     <bean id= "myCoach"
-    	class= "com.schfrnick.springdemo.TrackCoach">
+    	class= "com.schfrnick.springdemo.TrackCoach"
+    	scope="prototype">
     	
     	 <!-- constructor injection  which will pass the fortune reference-->
     	 
